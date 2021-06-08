@@ -1,13 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  background: #000
+    url(https://www.script-tutorials.com/demos/360/images/stars.png) repeat top
+    center;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Home {
+  background: black;
+}
+.Home .card {
+  background: black;
+}
+
+.ss {
+  margin-top: 20px;
+  font-size: 50px;
+  color: #84c13d;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: #84c13d;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+.CharList {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: black;
+}
+
+.Location {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: black;
+  color: white;
+}
+
+.Location > .card {
+  background: #24282f;
+  margin: 10px 5px;
+  border: blue solid;
+}
+
+.Episode {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: black;
+  color: white;
+}
+.Episode > .card {
+  background: #24282f;
+  margin: 10px 5px;
+  border: blue solid;
+}
+
+.carrd {
+  margin: 20px 20px;
+  border: none;
+  color: white;
+  height: 300px;
+  background: #111418;
+  border: blue solid;
+}
+
+.card img {
+  height: 200px;
+  width: 300px;
 }
